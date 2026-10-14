@@ -1,0 +1,1 @@
+{"private":true,"type":"module","scripts":{"build":"node scripts/render-articles.mjs","test":"node --test"},"dependencies":{"markdown-it":"14.1.0"}}
