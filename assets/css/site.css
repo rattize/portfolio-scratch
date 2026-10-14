@@ -1,1 +1,80 @@
-:root{color-scheme:light dark;font-family:system-ui,sans-serif;line-height:1.65}body{max-width:72rem;margin:auto;padding:0 1.25rem}header{border-bottom:1px solid #888}nav{display:flex;flex-wrap:wrap;gap:1.2rem;padding:1rem 0}main{max-width:65ch;padding:2rem 0}a{color:inherit;text-underline-offset:.2em}a:focus-visible,button:focus-visible{outline:3px solid #e47712;outline-offset:4px}.skip{position:absolute;transform:translateY(-200%);background:Canvas;padding:.5rem}.skip:focus{transform:none}img{max-width:100%;height:auto}footer{border-top:1px solid #888;font-size:.9rem}#artwork:has(img){width:100%;position:relative}#artwork img,#artwork canvas{display:block;width:100%;height:min(65vw,26rem);object-fit:contain}#artwork [role=status]{min-height:1.5em}.artwork-controls{display:flex;flex-wrap:wrap;gap:.4rem}button{min-height:2.5rem;cursor:pointer}@media(max-width:35rem){main{padding:1rem 0}nav{gap:.7rem}}
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  line-height: 1.65;
+}
+body {
+  max-width: 72rem;
+  margin: auto;
+  padding: 0 1.25rem;
+}
+header {
+  border-bottom: 1px solid #888;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  padding: 1rem 0;
+}
+main {
+  max-width: 65ch;
+  padding: 2rem 0;
+}
+a {
+  color: inherit;
+  text-underline-offset: 0.2em;
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #e47712;
+  outline-offset: 4px;
+}
+.skip {
+  position: absolute;
+  transform: translateY(-200%);
+  background: Canvas;
+  padding: 0.5rem;
+}
+.skip:focus {
+  transform: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  border-top: 1px solid #888;
+  font-size: 0.9rem;
+}
+#artwork:has(img) {
+  width: 100%;
+  position: relative;
+}
+#artwork img,
+#artwork canvas {
+  display: block;
+  width: 100%;
+  height: min(65vw, 26rem);
+  object-fit: contain;
+}
+#artwork [role='status'] {
+  min-height: 1.5em;
+}
+.artwork-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+button {
+  min-height: 2.5rem;
+  cursor: pointer;
+}
+@media (max-width: 35rem) {
+  main {
+    padding: 1rem 0;
+  }
+  nav {
+    gap: 0.7rem;
+  }
+}

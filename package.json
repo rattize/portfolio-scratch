@@ -1,1 +1,16 @@
-{"private":true,"type":"module","scripts":{"build":"node scripts/render-articles.mjs","test":"node --test"},"dependencies":{"markdown-it":"14.1.0"}}
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/render-articles.mjs",
+    "test": "node --test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "markdown-it": "14.1.0"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}
