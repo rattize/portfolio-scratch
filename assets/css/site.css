@@ -1,5 +1,7 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: dark;
+  --color-background: #202023;
+  --color-text: #f2f0eb;
   font-family: system-ui, sans-serif;
   line-height: 1.65;
 }
@@ -7,6 +9,8 @@ body {
   max-width: 72rem;
   margin: auto;
   padding: 0 1.25rem;
+  background: var(--color-background);
+  color: var(--color-text);
 }
 header {
   border-bottom: 1px solid #888;
